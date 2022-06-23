@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&family=Lora&family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Open+Sans:wght@300;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Questrial&family=Ubuntu:wght@500&display=swap');
+:root{
+    --main-color:#4e4a4a;
+    --sub-color:#aba7a7;
+    --font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    height:100vh;
+    font-size:100%;    
+}
+
+body{
+    margin:2rem 5rem;
+    font-family:var(--font-family);
+}
+
+
+.main-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.container-1{
+    display:flex;
+    flex-direction: column;
+}
+
+.container-1 img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 0.7rem;
+    margin: 0.5rem auto;
+}
+
+.intro{
+    text-align:center;
+    text-transform:capitalize;
+}
+
+.intro h2{
+    margin: 0;
+    font-family:var(--font-family);
+    font-weight: 500;
+    color:var(--main-color);
+}
+
+.intro span{
+    color:var(--sub-color);
+    font-weight:500;
+}
+
+.data{
+    display:inline-block;
+    background-color:rgb(224 224 224);
+    height:4rem;
+    width:6rem;
+    border-radius:0.5rem;
+    text-align:center;
+    padding:0.5rem;
+    margin:1rem;
+}
+
+.data span{
+    display:block;
+}
+
+.data-number{
+    color:var(--main-color);
+    font-weight:500;
+}
+
+.data-type{
+    color:var(--sub-color);
+    text-transform:capitalize;
+    font-weight:500;
+}
+
+/* -----------------Container2------------------------ */
+.container-2{
+    display:flex;
+    width:100%;
+}
+
+.container-2 img{
+    height:15rem;
+    margin:1rem 0.5rem;
+    border-radius:0.5rem;
+}
+
+.container-2 .image-1{
+    width:40%;
+}
+
+.container-2 .image-2{
+    width:55%;
+    margin-right:0em;
+    margin-left:1.25rem;
+
+}
+/* ---------------------Container3------------------------- */
+.container-3{
+    display:flex;
+    width:100%;
+}
+
+.container-3 img{
+    width:100%;
+    height:31rem;
+    border-radius:0.5rem;
+}
+
+.first-part{
+    display:flex;
+    flex-direction:column;
+    width:70%;
+    margin:1rem 0.5rem;
+}
+
+.first-part img{
+    height:15rem;
+}
+
+.first-part-division{
+    display:flex;
+    justify-content:space-between;
+}
+
+.first-part-division img{
+    width:50%;
+    height:15rem;
+    margin:1rem 0;
+}
+
+#image-5{
+    margin-right:0.5rem;
+}
+
+#image-6{
+    margin-left:0.5rem;
+}
+
+.second-part{
+    width:28%;
+    margin:1rem 0.5rem;
+}
+.second-part img{
+    margin-left:0.5rem;
+}
